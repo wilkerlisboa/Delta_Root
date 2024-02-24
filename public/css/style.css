@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: none;
+}
+.left{
+    width: 8%;
+    height: 100vh;
+    background:rgba(17, 17, 17, 0.9);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+.imagem1{
+    width: 63%;
+    margin-top: 42%;
+}
+.instagram{
+    margin-top: 18%;
+}
+a{
+    text-decoration: none;
+    color: #00dd73;
+    transition: transform 4s ease;;
+}
+.github{
+    margin-top: 24%;
+}
+.about{
+    margin-top: 200%;
+    padding: 10%;
+    text-decoration: none;
+    color: #00DD73;
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.right {
+    position: fixed;
+    right: 100px;
+    width: 19%;
+    padding: 2%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(17, 17, 17, 0.9);
+    color: #00DD73;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    justify-content: center;
+}
+.right.open {
+    transform: translateX(0); 
+    right: 4px;
+}
+.menuItems {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menuItems li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+li{
+    letter-spacing: 3px;
+    line-height: 302%;
+}
+ul{
+    text-decoration: auto;
+    list-style: none;
+}
+#menuIcon{
+    margin-top: -823px;
+    position: absolute;
+    padding: 4%;
+    margin-left: -20px;
+}
+#store{
+    position: absolute;
+    margin-top: 140%;
+}
+#apresentacao{
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.imagem-logo{
+    width: 20%;
+}
+.firstText{
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 5%;
+    color: #00DD73;
+}
+.button{
+    text-decoration: none;
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    border-style: none;
+    padding: 1%;
+    border-radius: 27px 27px 27px 27px;
+    width: 8%;
+    text-align: center;
+    background: #00DD73;
+    box-shadow: 0px 20px 26px -18px #00dd73;
+}
+#gameOne{
+    width: 100%;
+    height: 100vh;
+    background:  black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.firstTitle{
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xxx-large;
+    color: #00DD73;
+}
+.text{
+    font-family: "Akaya Telivigala", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 40px;
+    color: #00DD73;
+}
+.buttonDownload{
+    text-decoration: none;
+    border-style: solid;
+    padding: 1%;
+    border-radius: 35px 35px 35px 35px;
+    width: 6%;
+    text-align: center;
+    color: #00DD73;
+    margin-top: 72px;
+    box-shadow: 0px 20px 30px -11px;
+    font-family: "Akaya Telivigala", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.imagemMeteoroOne{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-image: url(../imagem/inimigo\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: -682px 1128px 10px 10px;
+}
+.imagemMeteoroTwo {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-image: url(../imagem/inimigo\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 86px 1012px 10px 10px;
+}
+.imagemMeteoroThree {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-image: url(../imagem/inimigo\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: -767px -3px 10px 10px;
+}
+.imagemMeteoroFourth {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-image: url(../imagem/inimigo\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 413px -376px 10px 10px;
+}
+.imagemMeteoroFourth {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-image: url(../imagem/inimigo\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 413px -376px 10px 10px;
+}
+.imagemMeteoroFifth {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-image: url(../imagem/inimigo\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 216px -945px 10px 10px;
+}
+.nave{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    background-image: url(../imagem/nave\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 784px -1499px 10px 10px;
+    background-size: cover;
+}
+#gameTwo{
+    width: 100%;
+    height: 100vh;
+    background:  black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.bombasOne{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-image: url(../imagem/bomba.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: -682px 1128px 10px 10px;
+}
+.bombasTwo{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-image: url(../imagem/bomba.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: -475px 198px 10px 10px;
+}
+.bombasThree{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-image: url(../imagem/bomba.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: -694px -643px 10px 10px;
+}
+.bombasFourth{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-image: url(../imagem/bomba.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: -240px -1056px 10px 10px;
+}
+.mostro{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-image: url(../imagem/mostro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 721px -12px 10px 10px;
+}

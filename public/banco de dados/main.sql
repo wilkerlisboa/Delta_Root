@@ -1,0 +1,9 @@
+CREATE DATABASE DeltaRoot;
+
+USE DeltaRoot;
+
+CREATE TABLE Usuarios(
+    ID INT PRIMARY KEY,
+    NOME VARCHAR(50);
+    IDADE INT 
+)
