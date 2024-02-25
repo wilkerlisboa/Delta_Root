@@ -39,7 +39,7 @@ O DeltaRoot é um site dedicado a fornecer uma variedade de jogos envolventes e 
     * Saiba mais sobre nossa experiência em engenharia de software e como podemos atender às suas necessidades específicas.
 
 ## Contato:
-Para mais informações ou consultas, entre em contato conosco em [email@deltaRoot.com].
+Para mais informações ou consultas, entre em contato conosco em deltaroot.ofc@gmail.com.
 
 Obrigado por escolher DeltaRoot - Onde Jogos e Inovação se Encontram!
 
