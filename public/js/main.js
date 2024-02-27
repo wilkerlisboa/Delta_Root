@@ -1,3 +1,4 @@
+// MENU
 document.addEventListener('DOMContentLoaded', function () {
     var menuIcon = document.getElementById('menuIcon');
     var rightMenu = document.querySelector('.right');
@@ -13,3 +14,12 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+//LINK
+function home (){
+    // Define a URL da mesma página
+    var mesmaPaginaURL = window.location.href;
+
+    // Redireciona para a mesma página
+    window.location.href = mesmaPaginaURL;
+}
