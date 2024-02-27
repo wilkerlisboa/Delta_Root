@@ -19,7 +19,12 @@ body{
 }
 .imagem1{
     width: 63%;
-    margin-top: 42%;
+    height: 95%;
+    margin-top: 26%;
+    background-image: url(../imagem/logo1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .instagram{
     margin-top: 18%;
@@ -71,6 +76,9 @@ a{
 .menuItems li {
     padding: 10px;
     cursor: pointer;
+}
+#one{
+    padding-right: 30px;
 }
 
 li{
