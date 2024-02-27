@@ -194,7 +194,7 @@ ul{
     background-image: url(../imagem/inimigo\ 4.png);
     background-position: center;
     background-repeat: no-repeat;
-    margin: -767px -3px 10px 10px;
+    margin: -667px -3px 10px 10px;
 }
 .imagemMeteoroFourth {
     width: 80px;
@@ -230,7 +230,7 @@ ul{
     background-image: url(../imagem/nave\ 1.png);
     background-position: center;
     background-repeat: no-repeat;
-    margin: 784px -1499px 10px 10px;
+    margin: 692px -1173px 10px 10px;
     background-size: cover;
 }
 #gameTwo{
@@ -252,7 +252,7 @@ ul{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: -682px 1128px 10px 10px;
+    margin: -609px 1128px 10px 10px;
 }
 .bombasTwo{
     width: 80px;
@@ -272,7 +272,7 @@ ul{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: -694px -643px 10px 10px;
+    margin: -617px -637px 10px 10px;
 }
 .bombasFourth{
     width: 80px;
@@ -292,5 +292,5 @@ ul{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 721px -12px 10px 10px;
+    margin: 662px -12px 10px 10px;
 }
